@@ -1,0 +1,5 @@
+com\vinaylogics\springbootpetclinic\models\Vet.class
+com\vinaylogics\springbootpetclinic\models\Owner.class
+com\vinaylogics\springbootpetclinic\models\Pet.class
+com\vinaylogics\springbootpetclinic\models\PetType.class
+com\vinaylogics\springbootpetclinic\models\Person.class

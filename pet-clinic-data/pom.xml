@@ -3,7 +3,7 @@
     <parent>
         <artifactId>springboot-petclinic</artifactId>
         <groupId>com.vinaylogics</groupId>
-        <version>0.0.3</version>
+        <version>0.0.4.snapshot</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.vinaylogics</groupId>
     <artifactId>springboot-petclinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4.snapshot</version>
     <name>springboot-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -40,8 +40,10 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:git@github.com:VinayagamD/SpringBoot-PetClinic.git</developerConnection>
-      <tag>springboot-petclinic-0.0.3</tag>
+        <connection>scm:git:https://github.com/VinayagamD/SpringBoot-PetClinic.git</connection>
+        <developerConnection>scm:git:https://github.com/VinayagamD/SpringBoot-PetClinic.git</developerConnection>
+        <tag>@{project.version}</tag>
+        <url>https://github.com/VinayagamD/SpringBoot-PetClinic</url>
   </scm>
 
     <repositories>
