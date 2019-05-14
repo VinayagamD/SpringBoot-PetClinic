@@ -2,9 +2,11 @@ package com.vinaylogics.springbootpetclinic.services.map;
 
 import com.vinaylogics.springbootpetclinic.models.Owner;
 import com.vinaylogics.springbootpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerSeviceMap extends AbstractMapService<Owner,Long> implements OwnerService {
 
     @Override
