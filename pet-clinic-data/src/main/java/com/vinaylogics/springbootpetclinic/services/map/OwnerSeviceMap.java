@@ -1,11 +1,11 @@
 package com.vinaylogics.springbootpetclinic.services.map;
 
 import com.vinaylogics.springbootpetclinic.models.Owner;
-import com.vinaylogics.springbootpetclinic.services.CrudService;
+import com.vinaylogics.springbootpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerSeviceMap extends AbstractMapService<Owner,Long> implements CrudService<Owner,Long> {
+public class OwnerSeviceMap extends AbstractMapService<Owner,Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -30,5 +30,10 @@ public class OwnerSeviceMap extends AbstractMapService<Owner,Long> implements Cr
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }

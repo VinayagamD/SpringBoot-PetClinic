@@ -1,11 +1,11 @@
 package com.vinaylogics.springbootpetclinic.services.map;
 
 import com.vinaylogics.springbootpetclinic.models.Vet;
-import com.vinaylogics.springbootpetclinic.services.CrudService;
+import com.vinaylogics.springbootpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet,Long>  implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet,Long>  implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
