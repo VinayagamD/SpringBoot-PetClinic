@@ -2,8 +2,6 @@ com\vinaylogics\springbootpetclinic\services\VetService.class
 com\vinaylogics\springbootpetclinic\models\Owner.class
 com\vinaylogics\springbootpetclinic\models\BaseEntity.class
 com\vinaylogics\springbootpetclinic\services\OwnerService.class
-com\vinaylogics\springbootpetclinic\services\map\PetServiceMap.class
-com\vinaylogics\springbootpetclinic\services\map\VetServiceMap.class
 com\vinaylogics\springbootpetclinic\services\map\AbstractMapService.class
 com\vinaylogics\springbootpetclinic\models\Vet.class
 com\vinaylogics\springbootpetclinic\models\Pet.class
